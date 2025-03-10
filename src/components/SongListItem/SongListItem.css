@@ -1,0 +1,104 @@
+.song-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vh;
+    width: 100%;
+    transition: all ease-in-out 0.2s;
+}
+.song-item:hover{
+    /* box-shadow: 2px 2px 2px 2px rgb(red, green, blue); */
+    box-shadow: 2px 2px 50px rgb(113, 184, 241);
+}
+.cover-mini{
+    /* width: 20%; */
+    height: auto;
+    background-image: linear-gradient(45deg, black, transparent);
+    border-radius: 10%;
+    position: absolute;
+    left: 0px;
+}
+.song-discripton{
+    padding-left: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.list-song-line{
+    width: 99%;
+    left: 0;
+    position: absolute;
+}
+.song-discripton h3{
+    margin-bottom: 0.3rem;
+    font-size: 1rem;
+    
+}
+.song-discripton h4{
+    font-size: 0.7rem;
+}
+.active{
+    background-color: rgb(124, 136, 147);
+    border-radius: 10px;
+}
+
+
+
+@media screen and (max-width:1100px){
+    .song-discripton{
+        padding-left: 20vh;
+    }
+    .songs-list-item img{
+        width: 40%;
+    }
+}
+@media screen and (max-width:900px){
+    .song-discripton{
+        padding-left: 15vh;
+    }
+    .songs-list-item img{
+        width: 40%;
+    }
+}
+ @media screen and (max-width:800px){
+    /* .songs-list-item img{
+        position: relative;
+        width: 80%;
+        height: 50%;
+        margin: 0 9.5%;
+        bottom: 40px;
+        left: 40px;
+    }
+     
+    } */
+    /*
+    .song-discripton{
+        bottom: 0px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding-left: 0;
+    } */
+    .song-item {
+        height: 12rem;
+        flex-direction: column;
+
+    }
+    .cover-mini{
+        position: unset;
+    }
+    .song-discripton{
+        padding-left: 0px ;
+
+    }
+    .songs-list-item img{
+        width: 70%;
+        
+        margin-top: 20px;
+    }
+} 

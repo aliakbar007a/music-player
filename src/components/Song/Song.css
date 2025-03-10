@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Russo+One&family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Slabo+27px&display=swap');
+
+.song-container{
+    min-height: 60vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cover{
+    width: 20%;
+    height: auto;
+    background-image: linear-gradient(45deg, black, transparent);
+    border-radius: 50%;
+}
+.titlesong{
+    padding: 1rem 1rem 1rem 1rem;
+    font-family: "Russo One", sans-serif;
+    margin: 0;
+}
+.artistsong{
+    font-family: "Libre Baskerville", serif;
+    margin: 0;
+}

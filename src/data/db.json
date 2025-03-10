@@ -1,0 +1,29 @@
+{
+    "songs": [
+        {
+        "name":"Desire" ,
+        "cover":"https://d1csarkz8obe9u.cloudfront.net/themedlandingpages/tlp_hero_album-cover-art-73ab5b3d9b81f442cb2288630ab63acf.jpg?ts%20=%201698245952" ,
+        "id":1,
+        "audio":"https://mp3.chillhop.com/server.php/?mp3=10" 
+        ,"active": true ,
+         "artist": "Remix-Time"
+        },
+        {
+        "name":"Meidone Min" ,
+        "cover":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vector%2Fmusic-speakers-background-album-cover-poster-vector-46363881&psig=AOvVaw0AGLJEU1js3x-ujvow2kc1&ust=1730613412461000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKC7y7_7vIkDFQAAAAAdAAAAABAI" ,
+        "id":2,
+        "audio":"https://ts15.tarafdari.com/contents/user814497/content-sound/bloody-mary-slowed-and-reverb.mp3",
+        "active": true ,
+        "artist": "Remix-Time"
+        },
+        
+        {"name":"Ashegham Man" ,
+        "cover":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fkamirecords.co%2Fcover-song-distribution%2F&psig=AOvVaw0AGLJEU1js3x-ujvow2kc1&ust=1730613412461000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKC7y7_7vIkDFQAAAAAdAAAAABAQ" ,
+        "id":3,
+        "audio":"https://dl.bartarmusics.ir/music/bloody%20mary%20Slowed%20Remix.mp3?_=2" ,
+        "active": true , 
+        "artist": "Remix-Time"}
+        
+    ]
+}
+

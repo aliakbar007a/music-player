@@ -1,0 +1,19 @@
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 10vh;
+   
+}
+.nav-list button{
+    background: transparent;
+    cursor: pointer;
+    border: 2px solid rgb(67, 67, 67);
+    padding: 0.5rem;
+    transition: all ease-in-out 0.2s;
+}
+.nav-list button:hover{
+    background-color: rgb(67, 67, 67);
+    color: white;
+    border: 2px solid rgb(181, 170, 157);
+}

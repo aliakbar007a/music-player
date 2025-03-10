@@ -1,0 +1,46 @@
+.song-list{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20vw;
+    height: 100vh;
+    background-color: rgb(226, 236, 236);
+    box-shadow: 2px 2px 50px rgb(204, 204, 204);
+    overflow: scroll;
+    transition: all linear 0.4s ;
+}
+.song-list h2 {
+    padding: 1vw;
+    text-align: center;
+}
+.songs-list-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 4vh 2vw; */
+    width: 100%;
+}
+.songs-list-item img{
+    width: 30%;
+}
+.display-none{
+    transform: translateX(-30vw);
+    
+}
+
+*{
+    scrollbar-color:rgba(155, 155, 155, 0.5) transparent;
+    scrollbar-width: thin;  
+}
+*::-webkit-scrollbar {
+    width: 5px;
+}
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: (155, 155, 155, 0.5);
+    border-radius: 20px;
+}
+
+

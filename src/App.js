@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import {React , useState} from 'react'
+import { Song } from './components/Song/Song'
+import { Player } from './components/Player/Player';
+import { music } from './components/musicData';
+import { SongList } from './components/SongList/SongList';
+import { ToggleList } from './components/ToggleList/ToggleList';
 
 function App() {
+  const [url , setUrl] = useState('http://localhost:3000/songs');
+    const [songs , setSongs] = useState(music);
+    const [currentSong , setCurrentSong] = useState(songs[0]);
+    const [isPlaying , setIsPlaying] = useState(false);
+    const [showeListSong , setShoweListSong] = useState(false)
+  
+   
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <ToggleList showeListSong={showeListSong} setShoweListSong={setShoweListSong}/>
+      <Song currentSong={currentSong}/>
+      <Player setSongs={setSongs} currentSong={currentSong } isPlaying={isPlaying} setIsPlaying={setIsPlaying} songs={songs} setCurrentSong={setCurrentSong}/>
+      <SongList songs={songs} setCurrentSong={setCurrentSong} setSongs={setSongs} showeListSong={showeListSong}/>
     </div>
   );
 }
